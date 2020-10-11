@@ -50,7 +50,7 @@ void filemd5::on_pushButton_clicked()
     }
     else
     {
-        QMessageBox::warning(NULL,"Error","文件不存在或打开失败！",QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
+        QMessageBox::warning(NULL,"Error","File does not exist",QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
         ui->textEdit->clear();
     }
 }
@@ -71,7 +71,7 @@ void filemd5::on_pushButton_2_clicked()
      }
     else
     {
-        QMessageBox::warning(NULL,"Error","文件保存失败！",QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
+        QMessageBox::warning(NULL,"Error","Failed saving text!",QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
     }
     file.close();
 }

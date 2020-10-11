@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>暴力破解</string>
+   <string>Brute Force Cracking</string>
   </property>
   <widget class="QDialogButtonBox" name="buttonBox">
    <property name="geometry">

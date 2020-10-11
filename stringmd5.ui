@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>String Hash</string>
   </property>
   <widget class="QDialogButtonBox" name="buttonBox">
    <property name="geometry">
@@ -178,7 +178,7 @@
     </font>
    </property>
    <property name="text">
-    <string>16-bit (uppercase)</string>
+    <string>16-bit (uppercase):</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_6">

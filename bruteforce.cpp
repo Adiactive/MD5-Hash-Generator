@@ -102,18 +102,18 @@ void BruteForce::on_pushButton_clicked()
             flag=true;
     }
     if (!flag){
-        QMessageBox::warning(NULL,"Error","MD5值长度只能是16或32，且只包含字母和数字！",QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
+        QMessageBox::warning(NULL,"Error","Input string should be 16 or 32 length and alphanumeric！",QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
         return;
     }
     if (!ui->checkBox->isChecked() && !ui->checkBox_2->isChecked()
             && !ui->checkBox_3->isChecked() && !ui->checkBox_4->isChecked())
     {
-        QMessageBox::warning(NULL,"Error","选择可能的明文规则！",QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
+        QMessageBox::warning(NULL,"Error","Select possible key space！",QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
         return;
     }
     if (!ui->spinBox->value())
     {
-        QMessageBox::warning(NULL,"Error","长度不能为0！",QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
+        QMessageBox::warning(NULL,"Error","Input size can not be 0！",QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
         return;
     }
     //start
@@ -154,12 +154,12 @@ void BruteForce::on_pushButton_clicked()
             {
                 //找到匹配明文
                 ui->progressBar->setValue(total_length);
-                ui->textBrowser->append(QString("正在尝试明文:"+ QString::fromStdString(s) + ".................匹配成功！"));
-                ui->textBrowser->append(QString("破解成功！MD5值对应的明文为: ") + QString::fromStdString(s));
+                ui->textBrowser->append(QString("Trying:"+ QString::fromStdString(s) + ".................Successed！"));
+                ui->textBrowser->append(QString("Cracking Successed！Key: ") + QString::fromStdString(s));
               return;
             }
-            //emit updateText(QString("正在尝试明文:"+ QString::fromStdString(s) + ".................不匹配"));
-            ui->textBrowser->append(QString("正在尝试明文:"+ QString::fromStdString(s) + ".................不匹配"));
+            //emit updateText(QString("Trying:"+ QString::fromStdString(s) + ".................failed"));
+            ui->textBrowser->append(QString("Trying:"+ QString::fromStdString(s) + ".................failed"));
             QApplication::processEvents();
             qDebug()<<QString::fromStdString(s);
 
@@ -169,7 +169,7 @@ void BruteForce::on_pushButton_clicked()
         }
         free(plaintxt);
     }
-    ui->textBrowser->append(QString("破解失败！"));
+    ui->textBrowser->append(QString("Cracking Failed！"));
 }
 
 
