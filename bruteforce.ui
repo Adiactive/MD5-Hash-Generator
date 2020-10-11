@@ -46,7 +46,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>破解</string>
+    <string>CRACK</string>
    </property>
   </widget>
   <widget class="Line" name="line">
@@ -103,7 +103,7 @@
     </font>
    </property>
    <property name="text">
-    <string>输入要破解的MD5值</string>
+    <string>Input MD5 String</string>
    </property>
   </widget>
   <widget class="QSpinBox" name="spinBox">
@@ -122,7 +122,7 @@
   <widget class="QSpinBox" name="spinBox_2">
    <property name="geometry">
     <rect>
-     <x>270</x>
+     <x>290</x>
      <y>105</y>
      <width>61</width>
      <height>31</height>
@@ -132,9 +132,9 @@
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>30</x>
      <y>110</y>
-     <width>61</width>
+     <width>80</width>
      <height>21</height>
     </rect>
    </property>
@@ -144,7 +144,7 @@
     </font>
    </property>
    <property name="text">
-    <string>最小长度:</string>
+    <string>Min Length:</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_4">
@@ -152,7 +152,7 @@
     <rect>
      <x>200</x>
      <y>110</y>
-     <width>61</width>
+     <width>80</width>
      <height>21</height>
     </rect>
    </property>
@@ -162,13 +162,13 @@
     </font>
    </property>
    <property name="text">
-    <string>最大长度:</string>
+    <string>Max Length:</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_5">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>40</x>
      <y>150</y>
      <width>131</width>
      <height>21</height>
@@ -180,7 +180,7 @@
     </font>
    </property>
    <property name="text">
-    <string>密码可能组成规则：</string>
+    <string>Possible Key Space:</string>
    </property>
   </widget>
   <widget class="QCheckBox" name="checkBox">
@@ -188,51 +188,51 @@
     <rect>
      <x>180</x>
      <y>153</y>
-     <width>81</width>
+     <width>91</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>小写字母</string>
+    <string>Lower case</string>
    </property>
   </widget>
   <widget class="QCheckBox" name="checkBox_2">
    <property name="geometry">
     <rect>
-     <x>270</x>
+     <x>280</x>
      <y>153</y>
-     <width>81</width>
+     <width>91</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>大写字母</string>
+    <string>Upper case</string>
    </property>
   </widget>
   <widget class="QCheckBox" name="checkBox_3">
    <property name="geometry">
     <rect>
-     <x>360</x>
+     <x>380</x>
      <y>153</y>
      <width>81</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>数字</string>
+    <string>Numbers</string>
    </property>
   </widget>
   <widget class="QCheckBox" name="checkBox_4">
    <property name="geometry">
     <rect>
-     <x>420</x>
+     <x>480</x>
      <y>153</y>
      <width>81</width>
      <height>16</height>
     </rect>
    </property>
    <property name="text">
-    <string>特殊符号</string>
+    <string>Symbols</string>
    </property>
   </widget>
   <widget class="Line" name="line_2">

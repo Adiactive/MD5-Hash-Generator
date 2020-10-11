@@ -45,7 +45,7 @@
      </font>
     </property>
     <property name="text">
-     <string>字符串加密</string>
+     <string>String Hash</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_3">
@@ -58,7 +58,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>文件加密/校验</string>
+     <string>File Hash</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
@@ -71,7 +71,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>暴力破解</string>
+     <string>Brute Force Cracking</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_4">
@@ -84,7 +84,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>退出程序</string>
+     <string>Exit</string>
     </property>
    </widget>
   </widget>

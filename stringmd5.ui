@@ -41,7 +41,7 @@
     </font>
    </property>
    <property name="text">
-    <string>输入要加密的字符串</string>
+    <string>Input String</string>
    </property>
   </widget>
   <widget class="Line" name="line">
@@ -80,7 +80,7 @@
     </font>
    </property>
    <property name="text">
-    <string>字符串:</string>
+    <string>String:</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit">
@@ -142,15 +142,15 @@
     </rect>
    </property>
    <property name="text">
-    <string>加密</string>
+    <string>HASH</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>30</x>
      <y>200</y>
-     <width>101</width>
+     <width>120</width>
      <height>21</height>
     </rect>
    </property>
@@ -160,15 +160,15 @@
     </font>
    </property>
    <property name="text">
-    <string>16位MD5(小写):</string>
+    <string>16-bit (lowercase)</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_5">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>30</x>
      <y>260</y>
-     <width>101</width>
+     <width>120</width>
      <height>21</height>
     </rect>
    </property>
@@ -178,15 +178,15 @@
     </font>
    </property>
    <property name="text">
-    <string>16位MD5(大写):</string>
+    <string>16-bit (uppercase)</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_6">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>30</x>
      <y>320</y>
-     <width>101</width>
+     <width>120</width>
      <height>21</height>
     </rect>
    </property>
@@ -196,15 +196,15 @@
     </font>
    </property>
    <property name="text">
-    <string>32位MD5(小写):</string>
+    <string>32-bit (lowercase)</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_7">
    <property name="geometry">
     <rect>
-     <x>50</x>
+     <x>30</x>
      <y>380</y>
-     <width>101</width>
+     <width>120</width>
      <height>21</height>
     </rect>
    </property>
@@ -214,7 +214,7 @@
     </font>
    </property>
    <property name="text">
-    <string>32位MD5(大写):</string>
+    <string>32-bit (uppercase)</string>
    </property>
   </widget>
   <widget class="QLineEdit" name="lineEdit_2">
@@ -267,7 +267,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>保存为文本</string>
+    <string>Save as text</string>
    </property>
   </widget>
  </widget>
